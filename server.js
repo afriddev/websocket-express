@@ -1,5 +1,5 @@
 const app = require("./src/app");
-const wss = require("./src/websocket");
+const wss = require("./src/webSocket");
 
 const server = app.listen(5000, () => {
     console.log(`Server is running on port 5000`);
